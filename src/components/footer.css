@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    padding: 130px 360px 30px ;
+}
+.footer .footercontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+.footer .footercontent .gnb{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .footercontent .footer_gnb{
+    display: flex; gap: 60px;
+    width: 100%;
+}
+.footer .footercontent .footer_gnb li{
+    width: 120px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.footer .footercontent button.service_code{
+    border: 1px solid #ddd;
+    padding: 8px 24px;
+    color: #ddd;
+}
+.footer .footercontent .copy{
+    color: #dddd;
+    font-size: 12px;
+    line-height: 1.3;
+}
